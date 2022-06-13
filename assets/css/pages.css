@@ -1,0 +1,322 @@
+/* Overall */
+* {
+    color: #43c131 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.divider-1.wow.fadeInUp {
+    border-top: 2px solid #ccc;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.carousel {
+    z-index: 1;
+}
+
+.carousel-border img {
+    border-radius: 15px !important;
+    width: 100%;
+    height: 100%;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+#nav {
+    background-image: url('../images/test/background.png');
+    background-repeat: repeat;
+    margin-top: 100px;
+}
+
+#logout {
+    cursor: pointer;
+    text-align: center;
+}
+
+.container, .container-fluid {
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row .deleteUserDog:hover, .matchRequest:hover {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 581px) {
+  #lableReason {
+    display: none;
+  }
+}
+
+/* Header */
+
+#stickytop {
+    position: fixed; 
+    z-index: 1000; 
+    border: solid 1px #eeeccc; 
+    top: 0;
+}
+
+#navbarNavDropdown a {
+    color: #43c131 !important;
+    text-align: center;
+}
+
+.navbar-brand:hover, #navbarDropdown:hover, #login:hover {
+    color: #37a329 !important;
+    text-decoration: none;
+}
+
+.btn-outline-success {
+    color: #43c131 !important;
+    border-color: #43c131 !important;
+}
+
+#search {
+    margin: 0 auto;
+}
+
+#searchUser {
+    width: 72% !important;
+}
+
+#logout {
+    margin: auto;
+}
+
+.not-logged-in-link {
+    margin: 0 auto;
+    font-weight: bolder;
+    font-size: large;
+    border: solid 2px #43c131;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+#footer * {
+    color: #43c131;
+}
+#footerbottom {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #35a226 !important;
+}
+
+#footerbottom span {
+    color: white !important;
+}
+
+#social, section {
+    text-align: center !important;
+}
+
+footer .col-sm {
+    margin-top: 10px;
+}
+
+/* Free option */
+
+#free .card {
+    margin: 0 auto;
+}
+#free .card-title {
+    text-align: center;
+}
+
+#free .left { float: left; }
+#free .right { float: right; }
+
+#free .card .btn { 
+    color: white !important; 
+    text-align: center;
+    padding: 20px 0;
+    width: 100px;
+}
+
+/* Dashboard page */
+
+#dashboard h3 {
+    text-align: center;
+}
+
+.divider-1 span { 
+    display: inline-block; 
+    width: 200px; 
+    border-bottom: 1px dotted #aaa; 
+}
+
+#matchBtn {
+    padding: 10px 40px;
+    border: solid 1px #43c131;
+    border-radius: 10px;
+    background-color: #43c131;
+    color: white !important;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+#lableReason {
+    background-color: #70da62;
+    width: 70%;
+    float: right;
+    padding: 20px;
+}
+
+#lableReason h3 {
+    color: white !important;
+}
+
+.newsarticle {
+    margin: 20px 20px;
+    border: solid 1px black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    padding: 35px;
+}
+
+#lableCounter {
+    background: #70da62;
+}
+
+.lableCounter-row {
+    text-align: center;
+}
+
+.users {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+.users-number {
+    color: red;
+    font-weight: bolder;
+}
+
+.divider .row {
+    margin-top: 0 !important;
+}
+
+#contact {
+    text-align: center;
+}
+
+.row #cancelRequest { color: red !important; }
+
+.row #acceptRequest { color: green !important; }
+
+.matchRequest {
+    width: 40px;
+    float: right;
+    background: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 4px;
+    border-radius: 45%;
+}
+
+.bottom-left #requestUsername {
+    text-align: left;
+    color: white !important;
+    float: left;
+    margin-left: 20px;
+}
+
+.not-logged-in {
+    filter: blur(20px);
+    margin: 0 auto;
+}
+
+.not-logged-in-text {
+    position: relative;
+    text-align: center;
+    top: 120px;
+    z-index: 2;
+
+    background-color: white;
+    padding: 5px 0;
+    width: 65%;
+    margin: 0 auto;
+
+    border: solid 2px #43c131;
+    border-radius: 5px;
+}
+
+/* Account page */
+
+#baccount {
+    text-align: center;
+}
+
+#acount-userimg {
+    width: 100%;
+    border-radius: 90%;
+    /*border: solid 5px pink;*/
+
+}
+
+.account-details {
+    text-align: left;
+}
+
+.account-details span {
+    padding-left: 20px;
+}
+.account-details input, .account-details select {
+    width: 100%;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+#updateUser, #deleteUser, #addDog {
+    color: white !important;
+
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.row .deleteUserDog {
+    /*position: relative;*/
+    width: 40px;
+    float: right;
+    color: white !important;
+    background: none;
+    border: none;
+}
+
+.row .deleteUserDog {
+    /*position: relative;*/
+    width: 40px;
+    float: right;
+    color: white !important;
+    background: none;
+    border: none;
+}
+
+#citySelect {
+    border-radius: 10px;
+    border: solid 1px #8f8f9d;
+    padding: 7px !important;
+}
+
+#deleteUserImage {
+    position: relative;
+    bottom: 45px;
+    width: 100%;
+    float: right;
+}
